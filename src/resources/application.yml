@@ -1,0 +1,12 @@
+# 端口
+server:
+  port: 8006
+# 项目名
+spring:
+  application:
+    name: config-server
+# 日志配置
+logging:
+  config: classpath:log4j2.xml
+  level:
+    root: info

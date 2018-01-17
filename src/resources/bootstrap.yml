@@ -1,11 +1,9 @@
-server:
-  port: 8006
 spring:
-  application:
-    name: config-server
   cloud:
     config:
       server:
         git:
           uri: https://github.com/lijie2008/config-file.git
           searchPaths: '*{application}*'
+
+
